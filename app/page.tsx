@@ -38,14 +38,6 @@ const districts: District[] = [
     bullets: ["Market mood", "Risk temperature", "Trend pressure"],
   },
   {
-    name: "Voltara Reflex",
-    href: "https://voltarareflex.vercel.app",
-    badge: "Reflex",
-    accent: "violet",
-    desc: "Reflection engine for sharper thinking.",
-    bullets: ["Clarity loops", "Insight capture", "Mental reset"],
-  },
-  {
     name: "Sanctuary Sprint v3",
     href: "https://sanctuary-sprint-v3.vercel.app",
     badge: "Focus",
@@ -122,13 +114,13 @@ export default function Page() {
           </p>
 
           <div className="mt-6 flex flex-wrap items-center gap-3">
-  <a
-    href="#districts"
-    className="rounded-xl border border-white/10 bg-white/[0.04] px-4 py-2 text-sm text-slate-100 backdrop-blur hover:bg-white/[0.06] transition"
-  >
-    Enter the City →
-  </a>
-</div>
+            <a
+              href="#districts"
+              className="rounded-xl border border-white/10 bg-white/[0.04] px-4 py-2 text-sm text-slate-100 backdrop-blur hover:bg-white/[0.06] transition"
+            >
+              Enter the City →
+            </a>
+          </div>
         </section>
 
         {/* Districts */}
@@ -167,7 +159,10 @@ export default function Page() {
                   ].join(" ")}
                 >
                   {/* Shimmer edge */}
-                  <div aria-hidden className="pointer-events-none absolute inset-0 rounded-2xl city-card-sheen opacity-0 group-hover:opacity-100 transition" />
+                  <div
+                    aria-hidden
+                    className="pointer-events-none absolute inset-0 rounded-2xl city-card-sheen opacity-0 group-hover:opacity-100 transition"
+                  />
 
                   <div className="flex items-start justify-between gap-3">
                     <div>
