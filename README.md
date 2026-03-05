@@ -1,3 +1,70 @@
+
+🌆 VoltaraCity
+
+"Next.js" (https://img.shields.io/badge/Next.js-App%20Router-black?style=for-the-badge&logo=next.js)
+"React" (https://img.shields.io/badge/React-Framework-61DAFB?style=for-the-badge&logo=react)
+"Vercel" (https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)
+"Status" (https://img.shields.io/badge/Status-Live-22c55e?style=for-the-badge)
+
+VoltaraCity is the central hub for the Voltara ecosystem — a calm gateway where users can access every live Voltara tool and district from one place.
+
+---
+
+🚀 Live Application
+
+https://voltaracity.vercel.app
+
+---
+
+🏙 Districts
+
+📈 BullFinderPro
+
+https://bullfinderpro.vercel.app
+Live crypto signals + candlestick market dashboard.
+
+🔮 Voltara Oracle
+
+https://voltaraoracle.vercel.app
+AI signal chamber for insights and exploration.
+
+🌍 GaiaGauge
+
+https://gaiagauge.vercel.app
+Market sentiment and macro pulse visualizer.
+
+⚡ Sanctuary Sprint v3
+
+https://sanctuary-sprint-v3.vercel.app
+Focus sprint system for builders.
+
+🎨 CreatorDrop
+
+https://creatordrop.vercel.app
+Creator artifact and marketplace infrastructure.
+
+---
+
+🧠 Tech Stack
+
+- Next.js (App Router)
+- React
+- TailwindCSS
+- Vercel
+
+---
+
+🌌 Vision
+
+VoltaraCity is designed as a living hub for modular tools.
+Each district evolves independently while remaining connected through the Voltara ecosystem.
+
+---
+
+📬 Contact
+
+voltaralabs@gmail.com
+
 🌆 VoltaraCity
 
 VoltaraCity is the central hub for the Voltara ecosystem — a calm gateway where users can access every live Voltara tool and district from one place.
