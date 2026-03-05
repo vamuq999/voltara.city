@@ -21,14 +21,43 @@ const districts: District[] = [
     desc: "Your AI signal chamber — ask, scan, decide.",
     bullets: ["Oracle prompts", "Market lenses", "Decision clarity"],
   },
-  {
-    name: "BullFinder",
-    href: "https://bullfinder.vercel.app",
-    badge: "Signals",
-    accent: "cyan",
-    desc: "Find momentum before it trends.",
-    bullets: ["Scan faster", "Spot rotations", "Move early"],
-  },
+  <a
+  href="https://bullfinderpro.vercel.app"
+  target="_blank"
+  rel="noreferrer"
+  style={{
+    display: "block",
+    padding: 16,
+    borderRadius: 18,
+    border: "1px solid rgba(255,255,255,0.12)",
+    background: "rgba(0,0,0,0.35)",
+    backdropFilter: "blur(10px)",
+    textDecoration: "none",
+    color: "inherit",
+    marginTop: 12,
+  }}
+>
+  <div style={{ display: "flex", alignItems: "center", gap: 12 }}>
+    <div
+      style={{
+        width: 44,
+        height: 44,
+        borderRadius: 14,
+        background: "radial-gradient(circle at 30% 30%, #9b7bff, #2a1a66)",
+        boxShadow: "0 0 24px rgba(130,80,255,0.35)",
+      }}
+    />
+    <div style={{ flex: 1 }}>
+      <div style={{ fontSize: 18, fontWeight: 800, letterSpacing: 0.2 }}>
+        BullFinderPro
+      </div>
+      <div style={{ opacity: 0.8, fontSize: 13, marginTop: 2 }}>
+        Live candles + signals. Free preview, wallet-gated premium.
+      </div>
+    </div>
+    <div style={{ fontSize: 14, opacity: 0.9 }}>Enter →</div>
+  </div>
+</a>
   {
     name: "GaiaGauge",
     href: "https://gaiagauge.vercel.app",
