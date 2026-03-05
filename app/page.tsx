@@ -29,6 +29,14 @@ const districts: District[] = [
     desc: "Your AI signal chamber — ask, scan, decide.",
     bullets: ["Oracle prompts", "Market lenses", "Decision clarity"],
   },
+{
+  name: "VVS Registry",
+  href: "https://vvs-opal.vercel.app",
+  badge: "Registry",
+  accent: "cyan",
+  desc: "Verify treasury payments and generate print-ready certified receipts.",
+  bullets: ["Treasury verify", "Watermarked artifact", "PNG / PDF export"],
+},
   {
     name: "GaiaGauge",
     href: "https://gaiagauge.vercel.app",
