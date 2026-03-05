@@ -1,36 +1,138 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+🌆 VoltaraCity
 
-## Getting Started
+VoltaraCity is the central hub for the Voltara ecosystem — a calm gateway where users can access every live Voltara tool and district from one place.
 
-First, run the development server:
+Each district is an independent application focused on a specific capability such as AI insight, market signals, creator infrastructure, or productivity tools.
 
-```bash
+VoltaraCity acts as the entry point to the Voltara network.
+
+---
+
+🚀 Live Application
+
+Open the hub:
+
+https://voltaracity.vercel.app
+
+---
+
+🏙 Districts
+
+📈 BullFinderPro
+
+Live crypto market dashboard with signals and wallet-gated premium access.
+
+https://bullfinderpro.vercel.app
+
+Features
+
+- Live crypto price tracking
+- Market signal engine
+- Candlestick analysis
+- Free preview tier
+- Wallet-connect premium unlock
+
+---
+
+🔮 Voltara Oracle
+
+AI signal chamber designed to provide clarity, insight, and exploration.
+
+https://voltaraoracle.vercel.app
+
+Features
+
+- AI prompt interface
+- insight generation
+- exploratory analysis
+
+---
+
+🌍 GaiaGauge
+
+Market sentiment and macro pulse visualizer.
+
+https://gaiagauge.vercel.app
+
+Features
+
+- Market mood indicators
+- Risk temperature
+- Trend pressure
+
+---
+
+⚡ Sanctuary Sprint v3
+
+A builder sprint system designed to help creators ship without burnout.
+
+https://sanctuary-sprint-v3.vercel.app
+
+Features
+
+- Focus sprint timers
+- Structured productivity
+- Progress momentum
+
+---
+
+🎨 CreatorDrop
+
+Creator infrastructure for artifacts, publishing, and marketplace drops.
+
+https://creatordrop.vercel.app
+
+Features
+
+- Creator artifact publishing
+- Build-in-public infrastructure
+- Upcoming marketplace layer
+
+---
+
+🧠 Technology Stack
+
+- Next.js (App Router)
+- React
+- TailwindCSS
+- Vercel Deployment
+
+---
+
+🛠 Local Development
+
+Clone repository
+
+git clone https://github.com/YOUR_USERNAME/voltaracity
+
+Install dependencies
+
+npm install
+
+Run development server
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open in browser
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+http://localhost:3000
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+🌌 Vision
 
-To learn more about Next.js, take a look at the following resources:
+VoltaraCity is designed as a living hub for modular tools.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Each district evolves independently while remaining connected through the Voltara ecosystem.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+The goal is a clean, focused gateway to powerful builder tools without noise or distraction.
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+📬 Contact
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+voltaralabs@gmail.com
+
+---
+
+Voltara Labs — Built in public. Quiet power.
