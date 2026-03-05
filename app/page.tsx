@@ -14,50 +14,21 @@ type District = {
 
 const districts: District[] = [
   {
+    name: "BullFinderPro",
+    href: "https://bullfinderpro.vercel.app",
+    badge: "Signals",
+    accent: "violet",
+    desc: "Live candles + bull signals. Free preview, wallet-gated premium.",
+    bullets: ["Market snapshot", "Signal engine", "Premium unlock"],
+  },
+  {
     name: "Voltara Oracle",
-    href: "https://VoltaraOracle.vercel.app",
+    href: "https://voltaraoracle.vercel.app",
     badge: "Oracle",
     accent: "sky",
     desc: "Your AI signal chamber — ask, scan, decide.",
     bullets: ["Oracle prompts", "Market lenses", "Decision clarity"],
   },
-  <a
-  href="https://bullfinderpro.vercel.app"
-  target="_blank"
-  rel="noreferrer"
-  style={{
-    display: "block",
-    padding: 16,
-    borderRadius: 18,
-    border: "1px solid rgba(255,255,255,0.12)",
-    background: "rgba(0,0,0,0.35)",
-    backdropFilter: "blur(10px)",
-    textDecoration: "none",
-    color: "inherit",
-    marginTop: 12,
-  }}
->
-  <div style={{ display: "flex", alignItems: "center", gap: 12 }}>
-    <div
-      style={{
-        width: 44,
-        height: 44,
-        borderRadius: 14,
-        background: "radial-gradient(circle at 30% 30%, #9b7bff, #2a1a66)",
-        boxShadow: "0 0 24px rgba(130,80,255,0.35)",
-      }}
-    />
-    <div style={{ flex: 1 }}>
-      <div style={{ fontSize: 18, fontWeight: 800, letterSpacing: 0.2 }}>
-        BullFinderPro
-      </div>
-      <div style={{ opacity: 0.8, fontSize: 13, marginTop: 2 }}>
-        Live candles + signals. Free preview, wallet-gated premium.
-      </div>
-    </div>
-    <div style={{ fontSize: 14, opacity: 0.9 }}>Enter →</div>
-  </div>
-</a>
   {
     name: "GaiaGauge",
     href: "https://gaiagauge.vercel.app",
@@ -87,17 +58,41 @@ const districts: District[] = [
 function accentClasses(accent: Accent) {
   switch (accent) {
     case "cyan":
-      return { ring: "ring-cyan-300/30", glow: "shadow-cyan-500/10", dot: "bg-cyan-300" };
+      return {
+        ring: "ring-cyan-300/30",
+        glow: "shadow-cyan-500/10",
+        dot: "bg-cyan-300",
+      };
     case "sky":
-      return { ring: "ring-sky-300/30", glow: "shadow-sky-500/10", dot: "bg-sky-300" };
+      return {
+        ring: "ring-sky-300/30",
+        glow: "shadow-sky-500/10",
+        dot: "bg-sky-300",
+      };
     case "violet":
-      return { ring: "ring-violet-300/30", glow: "shadow-violet-500/10", dot: "bg-violet-300" };
+      return {
+        ring: "ring-violet-300/30",
+        glow: "shadow-violet-500/10",
+        dot: "bg-violet-300",
+      };
     case "emerald":
-      return { ring: "ring-emerald-300/30", glow: "shadow-emerald-500/10", dot: "bg-emerald-300" };
+      return {
+        ring: "ring-emerald-300/30",
+        glow: "shadow-emerald-500/10",
+        dot: "bg-emerald-300",
+      };
     case "orange":
-      return { ring: "ring-orange-300/30", glow: "shadow-orange-500/10", dot: "bg-orange-300" };
+      return {
+        ring: "ring-orange-300/30",
+        glow: "shadow-orange-500/10",
+        dot: "bg-orange-300",
+      };
     case "pink":
-      return { ring: "ring-pink-300/30", glow: "shadow-pink-500/10", dot: "bg-pink-300" };
+      return {
+        ring: "ring-pink-300/30",
+        glow: "shadow-pink-500/10",
+        dot: "bg-pink-300",
+      };
   }
 }
 
