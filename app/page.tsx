@@ -61,18 +61,14 @@ const districts: District[] = [
     desc: "Creator infrastructure — the marketplace-to-be.",
     bullets: ["Build in public", "Artifacts live", "Next up to complete"],
   },
-{
-  name: "AI Focus",
-  href: "https://aifocus.vercel.app",
-  badge: "Focus",
-  accent: "emerald",
-  desc: "Measure the stability of your attention.",
-  bullets: [
-    "Focus signal",
-    "Attention stability",
-    "Deep work score"
-  ],
-}
+  {
+    name: "AI Focus",
+    href: "https://aifocus-iota.vercel.app",
+    badge: "Focus",
+    accent: "emerald",
+    desc: "A reflex-driven attention trainer built on hold and release commands.",
+    bullets: ["Focus trials", "Reaction control", "Rising difficulty"],
+  },
   {
     name: "AI Stabilizer",
     href: "https://aistabilizer.vercel.app",
