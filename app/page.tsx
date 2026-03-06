@@ -1,4 +1,3 @@
-// app/page.tsx
 import Link from "next/link";
 
 type Accent =
@@ -94,6 +93,14 @@ const districts: District[] = [
     desc: "A balancing layer for composure, grounding, and digital emotional control.",
     bullets: ["Calm state", "Stability engine", "Reset flow"],
   },
+  {
+    name: "LoopForge",
+    href: "https://loopforge-amber.vercel.app",
+    badge: "Forge",
+    accent: "orange",
+    desc: "Prompt-to-GIF generation for NFT-ready loops, motion artifacts, and collectible visuals.",
+    bullets: ["Prompt engine", "0.002 ETH fee", "Download GIF"],
+  },
 ];
 
 const accentMap: Record<
@@ -181,7 +188,7 @@ function DistrictCard({ district }: { district: District }) {
       rel="noreferrer"
       className={`group relative overflow-hidden rounded-3xl border ${styles.border} bg-white/[0.03] p-5 backdrop-blur-xl transition-all duration-300 hover:-translate-y-1 hover:bg-white/[0.05] ${styles.glow}`}
     >
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(255,255,255,0.09),transparent_35%)] pointer-events-none" />
+      <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(255,255,255,0.09),transparent_35%)]" />
       <div className="relative z-10">
         <div className="mb-4 flex items-center justify-between gap-3">
           <span
@@ -241,9 +248,9 @@ export default function Home() {
           </h1>
 
           <p className="mx-auto mt-5 max-w-2xl text-sm leading-7 text-white/65 sm:text-base">
-            Nine districts. One skyline. Signals, oracle intelligence, on-chain
-            verification, creator systems, focus tools, stabilizers, and future
-            machinery under one electric roof.
+            Ten districts. One skyline. Signals, oracle intelligence, on-chain
+            verification, creator systems, focus tools, stabilizers, motion
+            artifacts, and future machinery under one electric roof.
           </p>
 
           <div className="mt-8 flex flex-wrap items-center justify-center gap-3">
@@ -265,7 +272,10 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="mt-12 grid grid-cols-1 gap-4 sm:grid-cols-2 xl:grid-cols-3" id="districts">
+        <div
+          className="mt-12 grid grid-cols-1 gap-4 sm:grid-cols-2 xl:grid-cols-3"
+          id="districts"
+        >
           {districts.map((district) => (
             <DistrictCard key={district.name} district={district} />
           ))}
@@ -289,7 +299,9 @@ export default function Home() {
 
             <div className="grid grid-cols-3 gap-3 text-center">
               <div className="rounded-2xl border border-white/10 bg-black/20 px-4 py-3">
-                <div className="text-2xl font-semibold text-white">9</div>
+                <div className="text-2xl font-semibold text-white">
+                  {districts.length}
+                </div>
                 <div className="text-xs text-white/45">Districts</div>
               </div>
               <div className="rounded-2xl border border-white/10 bg-black/20 px-4 py-3">
