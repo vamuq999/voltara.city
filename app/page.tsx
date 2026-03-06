@@ -29,14 +29,14 @@ const districts: District[] = [
     desc: "Your AI signal chamber — ask, scan, decide.",
     bullets: ["Oracle prompts", "Market lenses", "Decision clarity"],
   },
-{
-  name: "VVS Registry",
-  href: "https://vvs-opal.vercel.app",
-  badge: "Registry",
-  accent: "cyan",
-  desc: "Verify treasury payments and generate print-ready certified receipts.",
-  bullets: ["Treasury verify", "Watermarked artifact", "PNG / PDF export"],
-},
+  {
+    name: "VVS Registry",
+    href: "https://vvs-opal.vercel.app",
+    badge: "Registry",
+    accent: "cyan",
+    desc: "Verify treasury payments and generate print-ready certified receipts.",
+    bullets: ["Treasury verify", "Watermarked artifact", "PNG / PDF export"],
+  },
   {
     name: "GaiaGauge",
     href: "https://gaiagauge.vercel.app",
@@ -60,6 +60,14 @@ const districts: District[] = [
     accent: "pink",
     desc: "Creator infrastructure — the marketplace-to-be.",
     bullets: ["Build in public", "Artifacts live", "Next up to complete"],
+  },
+  {
+    name: "AI Stabilizer",
+    href: "https://aistabilizer.vercel.app",
+    badge: "Stabilizer",
+    accent: "cyan",
+    desc: "A symbolic AI utility for restoring balance, calm, and system harmony.",
+    bullets: ["System stability", "Light-guided ritual", "Interactive equilibrium"],
   },
 ];
 
@@ -107,13 +115,11 @@ function accentClasses(accent: Accent) {
 export default function Page() {
   return (
     <main className="min-h-dvh relative overflow-hidden">
-      {/* Ambient layers (CSS does the motion) */}
       <div aria-hidden className="pointer-events-none absolute inset-0 city-ambient" />
       <div aria-hidden className="pointer-events-none absolute inset-0 city-grid" />
       <div aria-hidden className="pointer-events-none absolute inset-0 city-vignette" />
 
       <div className="relative mx-auto max-w-6xl px-4 py-10 sm:py-14">
-        {/* Top bar */}
         <div className="flex items-center justify-between gap-3">
           <div className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/[0.03] px-3 py-1.5 backdrop-blur">
             <span className="h-2 w-2 rounded-full bg-sky-300 animate-pulse" />
@@ -128,7 +134,6 @@ export default function Page() {
           </Link>
         </div>
 
-        {/* Hero */}
         <section className="mt-10 sm:mt-12">
           <div className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/[0.03] px-3 py-1.5 backdrop-blur">
             <span className="h-1.5 w-1.5 rounded-full bg-white/70" />
@@ -155,7 +160,6 @@ export default function Page() {
           </div>
         </section>
 
-        {/* Districts */}
         <section id="districts" className="mt-10 sm:mt-12">
           <div className="flex items-end justify-between gap-4">
             <div>
@@ -190,7 +194,6 @@ export default function Page() {
                     "shadow-[0_0_0_1px_rgba(255,255,255,0.02)]",
                   ].join(" ")}
                 >
-                  {/* Shimmer edge */}
                   <div
                     aria-hidden
                     className="pointer-events-none absolute inset-0 rounded-2xl city-card-sheen opacity-0 group-hover:opacity-100 transition"
@@ -231,7 +234,6 @@ export default function Page() {
           </div>
         </section>
 
-        {/* Footer */}
         <footer className="mt-12 sm:mt-14 border-t border-white/10 pt-6">
           <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3">
             <p className="text-xs text-slate-200/60">
