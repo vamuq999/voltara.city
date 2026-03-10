@@ -25,14 +25,7 @@ export const districts: District[] = [
     desc: "A futuristic utility zone exploring energy systems, metrics, and vision.",
     bullets: ["Energy tools", "System concepts", "Future utility"],
   },
-  {
-    name: "SanctuarySprintV3",
-    href: "https://sanctuarysprintv3.vercel.app",
-    badge: "Sprint",
-    accent: "orange",
-    desc: "Momentum, challenge loops, progression, and gamified spiritual grind.",
-    bullets: ["Sprint mode", "Leaderboard energy", "Progress loop"],
-  },
+  
   {
     name: "CreatorDrop",
     href: "https://creatordrop.vercel.app",
