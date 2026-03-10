@@ -1,7 +1,6 @@
 import type { District } from "@/app/types/district";
 import { accentMap } from "@/app/lib/districtStyles";
 
-
 export default function DistrictCard({ district }: { district: District }) {
   const styles = accentMap[district.accent];
 

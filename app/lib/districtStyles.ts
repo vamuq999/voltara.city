@@ -1,4 +1,4 @@
-import type { Accent } from "@/types/district";
+import type { Accent } from "@/app/types/district";
 
 export const accentMap: Record<
   Accent,
