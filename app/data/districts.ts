@@ -25,7 +25,14 @@ export const districts: District[] = [
     desc: "A futuristic utility zone exploring energy systems, metrics, and vision.",
     bullets: ["Energy tools", "System concepts", "Future utility"],
   },
-  
+  {
+  name: "Voltara Truth",
+  href: "https://voltaratruth.vercel.app",
+  badge: "Truth",
+  accent: "cyan",
+  desc: "A tribute-based oracle engine revealing dynamic truths through ETH signals.",
+  bullets: ["Wallet connect", "0.003 ETH tribute", "Dynamic oracle truths"],
+},
   {
     name: "CreatorDrop",
     href: "https://creatordrop.vercel.app",
